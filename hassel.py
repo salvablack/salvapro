@@ -185,6 +185,56 @@ PROFILES = {
     "Duotone Sunset":              {"c": 1.15, "s": 0.30, "b": 1.00, "rgb": (1.35, 0.90, 0.60)},
     "Duotone Midnight":            {"c": 1.20, "s": 0.25, "b": 0.88, "rgb": (0.65, 0.80, 1.40)},
     "Mercury":                     {"c": 1.30, "s": 0.20, "b": 0.95, "rgb": (0.92, 1.00, 1.08)},
+
+    # ── MONOCROMATICO ANTIGUO · ROLLO HISTORICO ──
+    # Diferentes emulsiones B&W con tintes quimicos caracteristicos
+    "Daguerrotipo 1850":           {"c": 1.40, "s": 0.00, "b": 0.78, "rgb": (0.98, 0.95, 0.88)},  # Plata oxidada, frio con velo ambar
+    "Albumen Print 1860s":         {"c": 1.20, "s": 0.00, "b": 0.90, "rgb": (1.10, 1.00, 0.82)},  # Papel albumen: sepia calido
+    "Cianotipo Clasico":           {"c": 1.30, "s": 0.00, "b": 0.95, "rgb": (0.72, 0.88, 1.30)},  # Azul prusiano caracteristico
+    "Cianotipo Desvanecido":       {"c": 1.00, "s": 0.00, "b": 1.05, "rgb": (0.80, 0.92, 1.18)},  # Cianotipo viejo, palido
+    "Sepia Profundo":              {"c": 1.35, "s": 0.00, "b": 0.88, "rgb": (1.25, 1.05, 0.68)},  # Viraje al sulfuro intenso
+    "Sepia Tenue":                 {"c": 1.05, "s": 0.00, "b": 1.00, "rgb": (1.15, 1.02, 0.82)},  # Sepia suave, foto familiar
+    "Platino Palladio":            {"c": 1.25, "s": 0.00, "b": 0.92, "rgb": (0.95, 0.95, 0.92)},  # Tono frio neutro, muy fino
+    "Kallitipo Oxalato":           {"c": 1.30, "s": 0.00, "b": 0.88, "rgb": (1.08, 0.98, 0.82)},  # Cafe terroso, sombras densas
+    "Argyrotype":                  {"c": 1.20, "s": 0.00, "b": 0.90, "rgb": (0.85, 0.90, 1.10)},  # Azul-gris frio
+    "Gum Bichromate":              {"c": 1.10, "s": 0.00, "b": 1.00, "rgb": (1.05, 1.00, 0.90)},  # Textura mate, tono piedra
+    "Wet Plate Collodion":         {"c": 1.50, "s": 0.00, "b": 0.82, "rgb": (1.00, 0.98, 0.88)},  # Ambrotipos: alto contraste, frio
+    "Tintype 1870s":               {"c": 1.45, "s": 0.00, "b": 0.80, "rgb": (0.90, 0.90, 0.85)},  # Metal ferrotipo, muy oscuro
+    "Ortochromatico 1900":         {"c": 1.60, "s": 0.00, "b": 0.88, "rgb": (0.95, 0.95, 1.02)},  # Sin sensibilidad al rojo: cielos blancos
+    "Pantochromatico 1920s":       {"c": 1.40, "s": 0.00, "b": 0.90, "rgb": (0.98, 0.98, 0.98)},  # Primeras peli panchro, casi neutro
+    "Rollo Kodak 1930s":           {"c": 1.30, "s": 0.00, "b": 0.92, "rgb": (1.06, 1.02, 0.90)},  # Tono levemente calido, grano grueso
+    "Rollo Agfa 1940s":            {"c": 1.35, "s": 0.00, "b": 0.88, "rgb": (0.95, 0.95, 1.00)},  # Ligeramente frio, contraste medio
+    "Reportaje Guerra 1940s":      {"c": 1.65, "s": 0.00, "b": 0.82, "rgb": (0.92, 0.92, 0.88)},  # Alto contraste, grano extremo
+    "Retrato Estudio 1950s":       {"c": 1.15, "s": 0.00, "b": 1.00, "rgb": (1.04, 1.02, 0.96)},  # Suave, iluminacion de estudio
+    "Press Foto 1960s":            {"c": 1.55, "s": 0.00, "b": 0.85, "rgb": (0.98, 0.98, 0.95)},  # Fotoperiodismo: duro, urgente
+    "Infrarrojo Analogico":        {"c": 1.45, "s": 0.00, "b": 1.10, "rgb": (1.05, 1.05, 0.85)},  # Kodak HIE: cielos negros, hojas blancas
+    "Velo de Plata":               {"c": 1.00, "s": 0.00, "b": 1.15, "rgb": (0.98, 0.98, 1.05)},  # Subexpuesto, velo gris fantasmal
+    "Quemado Sobrexpuesto":        {"c": 0.85, "s": 0.00, "b": 1.30, "rgb": (1.05, 1.02, 0.98)},  # Rollo sobrexpuesto: altas luces comidas
+    "Lith Print":                  {"c": 1.60, "s": 0.00, "b": 0.85, "rgb": (1.18, 1.05, 0.75)},  # Revelado lith: sombras negras, medios cafes
+    "Selenium Toned":              {"c": 1.30, "s": 0.00, "b": 0.90, "rgb": (0.88, 0.88, 1.05)},  # Viraje al selenio: frio con purpura sutil
+    "Gold Toned":                  {"c": 1.20, "s": 0.00, "b": 0.95, "rgb": (1.12, 1.05, 0.80)},  # Viraje al oro: calido con amarillo
+    "Van Dyke Brown":              {"c": 1.25, "s": 0.00, "b": 0.88, "rgb": (1.20, 1.00, 0.72)},  # Impresion salina: cafe chocolate
+    "Palladium Warm":              {"c": 1.20, "s": 0.00, "b": 0.92, "rgb": (1.08, 1.02, 0.88)},  # Paladio calido, lujos de alta calidad
+    "Matte Bromide":               {"c": 1.10, "s": 0.00, "b": 1.02, "rgb": (0.96, 0.96, 0.94)},  # Papel bromuro mate: neutro apagado
+    "Glossy Silver Gelatin":       {"c": 1.45, "s": 0.00, "b": 0.90, "rgb": (0.94, 0.94, 0.98)},  # Papel brillante: negros profundos
+    "Pictorialismo 1910":          {"c": 0.90, "s": 0.00, "b": 1.05, "rgb": (1.08, 1.04, 0.92)},  # Soft focus intencional, romantico
+
+    # ── WHITE BALANCE · ESTILOS DE LUZ ──
+    "WB Tungsteno Calido":         {"c": 1.10, "s": 1.10, "b": 1.00, "rgb": (1.35, 1.10, 0.62)},  # Bombilla incandescente naranja
+    "WB Tungsteno Suave":          {"c": 1.05, "s": 1.05, "b": 1.02, "rgb": (1.20, 1.05, 0.75)},  # Incandescente moderado
+    "WB Fluoresente Verdoso":      {"c": 1.10, "s": 0.90, "b": 0.98, "rgb": (0.88, 1.08, 0.90)},  # Neon verde tipico de oficinas
+    "WB Neon Magenta":             {"c": 1.15, "s": 1.00, "b": 0.95, "rgb": (1.10, 0.85, 1.10)},  # Fluorescente magenta
+    "WB Luz de Vela":              {"c": 1.05, "s": 1.15, "b": 0.90, "rgb": (1.45, 1.15, 0.52)},  # Vela: naranja intenso
+    "WB Amanecer Frio":            {"c": 1.00, "s": 0.95, "b": 1.00, "rgb": (0.85, 0.95, 1.22)},  # Primera luz, azul-gris
+    "WB Mediodia Solar":           {"c": 1.15, "s": 1.15, "b": 1.05, "rgb": (1.02, 1.00, 0.95)},  # Sol directo al mediodia
+    "WB Nublado Suave":            {"c": 1.00, "s": 1.05, "b": 1.05, "rgb": (1.05, 1.02, 1.00)},  # Cielo nublado: luz difusa neutra
+    "WB Sombra Azulada":           {"c": 1.05, "s": 0.90, "b": 1.00, "rgb": (0.88, 0.95, 1.18)},  # Sombra al mediodia: muy azul
+    "WB Atardecer Dorado":         {"c": 1.05, "s": 1.25, "b": 1.02, "rgb": (1.28, 1.08, 0.72)},  # Hora dorada clasica
+    "WB Hora Azul":                {"c": 1.00, "s": 0.85, "b": 0.88, "rgb": (0.78, 0.90, 1.30)},  # Blue hour: crepusculo azul
+    "WB Luz LED Fria":             {"c": 1.12, "s": 0.95, "b": 1.00, "rgb": (0.88, 0.95, 1.12)},  # LED moderno: azul-blanco
+    "WB Sodio Urbano":             {"c": 1.20, "s": 0.70, "b": 0.92, "rgb": (1.30, 1.10, 0.55)},  # Farolas de sodio: amarillo sucio
+    "WB Mercurio Industrial":      {"c": 1.25, "s": 0.65, "b": 0.90, "rgb": (0.85, 1.00, 1.20)},  # Lampara de mercurio: verde-azul
+    "WB Estudio Flash":            {"c": 1.10, "s": 1.00, "b": 1.08, "rgb": (0.98, 0.98, 1.02)},  # Flash de estudio: blanco frio limpio
 }
 
 PROFILE_GROUPS = {
@@ -215,6 +265,22 @@ PROFILE_GROUPS = {
     "✦ Creativos & Duotono": [
         "Forest Tale", "Crimson", "Cinema Blue", "B&W Dramatic",
         "Lomography Cross", "Duotone Sunset", "Duotone Midnight", "Mercury",
+    ],
+    "🕯 Monocromatico Antiguo · Rollo Historico": [
+        "Daguerrotipo 1850", "Albumen Print 1860s", "Cianotipo Clasico", "Cianotipo Desvanecido",
+        "Sepia Profundo", "Sepia Tenue", "Platino Palladio", "Kallitipo Oxalato",
+        "Argyrotype", "Gum Bichromate", "Wet Plate Collodion", "Tintype 1870s",
+        "Ortochromatico 1900", "Pantochromatico 1920s", "Rollo Kodak 1930s", "Rollo Agfa 1940s",
+        "Reportaje Guerra 1940s", "Retrato Estudio 1950s", "Press Foto 1960s",
+        "Infrarrojo Analogico", "Velo de Plata", "Quemado Sobrexpuesto",
+        "Lith Print", "Selenium Toned", "Gold Toned", "Van Dyke Brown",
+        "Palladium Warm", "Matte Bromide", "Glossy Silver Gelatin", "Pictorialismo 1910",
+    ],
+    "💡 White Balance · Estilos de Luz": [
+        "WB Tungsteno Calido", "WB Tungsteno Suave", "WB Fluoresente Verdoso", "WB Neon Magenta",
+        "WB Luz de Vela", "WB Amanecer Frio", "WB Mediodia Solar", "WB Nublado Suave",
+        "WB Sombra Azulada", "WB Atardecer Dorado", "WB Hora Azul", "WB Luz LED Fria",
+        "WB Sodio Urbano", "WB Mercurio Industrial", "WB Estudio Flash",
     ],
 }
 
@@ -390,7 +456,7 @@ def image_to_bytes(img, quality=95):
 st.markdown("# SALVA RAW PRO")
 st.markdown(
     "<span style='font-size:0.75rem;letter-spacing:0.2em;color:#6b6965;text-transform:uppercase'>"
-    "Cinematic Edition v3.0 &nbsp;·&nbsp; 70+ Perfiles &nbsp;·&nbsp; Letterbox Profesional</span>",
+    "Cinematic Edition v3.1 &nbsp;·&nbsp; 120+ Perfiles &nbsp;·&nbsp; Letterbox &nbsp;·&nbsp; Monocromatico Historico &nbsp;·&nbsp; WB</span>",
     unsafe_allow_html=True
 )
 st.divider()
@@ -402,7 +468,7 @@ with st.sidebar:
         unsafe_allow_html=True
     )
     st.markdown(
-        "<span style='font-family:Syne,sans-serif;font-size:1.1rem;font-weight:800;color:#e8d5a3'>Cinematic Edition v3</span>",
+        "<span style='font-family:Syne,sans-serif;font-size:1.1rem;font-weight:800;color:#e8d5a3'>Cinematic Edition v3.1</span>",
         unsafe_allow_html=True
     )
     st.markdown(
@@ -462,7 +528,7 @@ with st.sidebar:
     resize_pct = st.slider("Redimensionar %", 10, 100, 100, 5)
     st.divider()
     st.markdown(
-        "<span style='font-size:0.62rem;color:#6b6965'>v3.0 · Salva Rosales · 70+ perfiles</span>",
+        "<span style='font-size:0.62rem;color:#6b6965'>v3.1 · Salva Rosales · 120+ perfiles</span>",
         unsafe_allow_html=True
     )
 
@@ -559,7 +625,7 @@ else:
             JPG · PNG · DNG · CR2 · NEF · ARW · HEIC — RAW nativo soportado
         </div>
         <div style="font-size:0.7rem;color:#3a3a3d;margin-top:20px;letter-spacing:0.05em">
-            70+ perfiles &nbsp;·&nbsp; Grano analogico &nbsp;·&nbsp; Glow &nbsp;·&nbsp; Vineta &nbsp;·&nbsp; Letterbox 9 formatos
+            120+ perfiles &nbsp;·&nbsp; Monocromatico Historico &nbsp;·&nbsp; WB &nbsp;·&nbsp; Grano &nbsp;·&nbsp; Glow &nbsp;·&nbsp; Vineta &nbsp;·&nbsp; Letterbox
         </div>
     </div>
     """, unsafe_allow_html=True)
